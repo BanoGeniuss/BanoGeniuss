@@ -1,0 +1,553 @@
+/* get_started page css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.font-family {
+    font-family: 'Nunito';
+
+}
+
+.my-heading {
+    font-size: 40px;
+    color: #FF8400;
+    font-weight: bolder;
+}
+
+/* .navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+
+}
+
+.navbar-toggler {
+    background: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+/* .nav-link.active,
+.nav-link:focus {
+    color: black;
+} */
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+/* .navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+} */
+
+
+.container-fluid {
+    padding: 0% 2%;
+}
+
+.navbar {
+    padding: 0 0 0rem;
+}
+
+.navbar-brand {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5rem;
+    color: #FF8400;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    color: #000000;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-submenu:hover>.dropdown-menu {
+    color: #FF8400;
+    display: block;
+}
+.dropdown-item:hover{
+    background-color: #FF8400 !important;
+}
+.corporate-button {
+    color: white !important;
+
+}
+
+
+
+.dropdown-item {
+    font-size: 18px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+
+.dropdown-submenu .dropdown-menu {
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+}
+
+.logo {
+    width: 50%
+}
+
+
+
+
+
+.my-button {
+    transition: all 2s ease-in-out;
+
+}
+
+.my-button:hover {
+    transform: scale(1.1);
+    background-color: orangered;
+    cursor: pointer;
+}
+
+
+
+/* text -animation */
+.boujee-text {
+    --bg-size: 400%;
+    --color-one: #090959;
+    --color-two: hsl(24, 95%, 55%);
+    /* font-size: clamp(3rem, 25vmin, 8rem); */
+    background: linear-gradient(90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-one)) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .boujee-text {
+        animation: move-bg 8s linear infinite;
+    }
+
+    @keyframes move-bg {
+        to {
+            background-position: var(--bg-size) 0;
+        }
+    }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+
+/* .my-radio-button:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.my-radio-button.active {
+    background-color: blue;
+} */
+
+
+
+.grade-6{
+    display: none;
+}
+
+.active {
+    background-color: #FF8400;
+    color: white;
+    border-radius: 8px;
+}
+
+
+@media (200px <=width <=450px) {
+    .grade-5{
+        display: none;
+    }
+    .grade-6{
+        display: block;
+        /* margin-left: 15% !important; */
+    }
+    .my-div-radio{
+        margin-left: -7% !important ;
+    }
+
+}
+
+
+/* navbar */
+@media (10px <=width <=768px) {
+
+    .navbar-nav .nav-link:hover,
+    .dropdown-submenu>.dropdown-menu {
+        color: #FF8400;
+        display: block;
+    }
+
+    .corporate-button {
+        margin-left: 2%;
+
+    }
+    /* nav{
+        width: 100% !important;
+        margin-left: -6.5% !important;
+    } */
+
+    .cb {
+        padding-left: 50%;
+    }
+     /* nav{
+        margin-left: -8% !important;
+    } */
+    /* .navbar-toggler{
+        margin-left: -8% !important;
+    } */
+    /* .navbar-collapse{
+        margin-left: 20% !important;
+    } */
+
+
+
+}
+
+/* logo img */
+@media (1600px <=width <=1700px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -10%;
+
+    }
+}
+
+@media (1500px <=width <=1599px) {
+    .logo-img {
+        width: 100%;
+        margin-left: 3%;
+
+    }
+}
+
+@media (1700px <=width <=1800px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -28%;
+
+    }
+}
+
+@media (1800px <=width <=1850px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -50%;
+    }
+}
+
+@media (1850px <=width <=1900px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -55%;
+    }
+}
+
+@media (1900px <=width <=1950px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -64%;
+    }
+}
+
+@media (1950px <=width <=2000px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -70%;
+    }
+}
+
+@media (1100px <=width <=1200px) {
+    .logo-img {
+        width: 90%;
+        margin-left: -18%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+
+@media (1000px <=width <=1100px) {
+    .logo-img {
+        width: 90%;
+        margin-left: 1%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+@media (950px <=width <=1000px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -14%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+@media (900px <=width <=950px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -7%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (800px <=width <=900px) {
+    .logo-img {
+        width: 40%;
+        margin-left: -2%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+@media (770px <=width <=800px) {
+    .logo-img {
+        width: 80%;
+        margin-left: 7%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+@media (768px <=width <=769px) {
+    .logo-img {
+        width: 80%;
+        margin-left: 20%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+@media (750px <=width <=767px) {
+    .logo-img {
+        width: 80%;
+        margin-left: -18%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+
+
+@media (700px <=width <=750px) {
+    .logo-img {
+        width: 80%;
+        margin-left: -12%;
+
+    }
+
+    .my-logo-div {
+        width: 60% !important;
+    }
+}
+
+@media (650px <=width <=700px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -8%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (600px <=width <=650px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -5%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (550px <=width <=600px) {
+    .logo-img {
+        width: 60%;
+        margin-left: 4% !important;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (500px <=width <=550px) {
+    .logo-img {
+        width: 60%;
+        margin-left: 13% !important;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (400px <=width <=500px) {
+    .logo-img {
+        width: 60%;
+        margin-left: 8%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (10px <=width <=400px) {
+    .logo-img {
+        width: 60%;
+        margin-left: 9% !important;
+
+    }
+    .my-logo-div {
+        width: 70% !important;
+      
+    }
+
+}
+
+/* scrolling */
+@media (768px <=width <=1050px) {
+    .my-section-2 {
+        margin-top: 35% !important;
+    }
+}
+
+@media (200px <=width <=768px) {
+    .my-section-2 {
+        margin-top: -20% !important;
+    }
+}
+
+@media (200px <=width <=1050px) {
+    .my-sticky-div {
+        display: none !important;
+    }
+
+    .my-hidden-div {
+        display: block;
+
+
+    }
+
+    .my-icons {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .scrollingDIV {
+        margin-right: 1% !important;
+        width: 100% !important;
+    }
+
+    .inner-div1-passage {
+        margin-left: -3% !important;
+    }
+
+    .my-scrolling-part {
+        margin-top: -4% !important;
+        margin-right: 3% !important;
+        width: 100% !important;
+        margin-left: 1% !important;
+
+    }
+
+
+}
+
+@media (1100px <=width <=1200px) {
+    .my-scrolling-part {
+        margin-top: -38% !important;
+    }
+
+
+}
+
+@media (1050px <=width <=1100px) {
+    .my-scrolling-part {
+        margin-top: -32% !important;
+    }
+
+
+}
+
+@media (765px <=width <=1050px) {
+    .my-scrolling-part {
+        margin-top: -58% !important;
+    }
+
+
+}
