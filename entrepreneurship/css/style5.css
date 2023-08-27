@@ -1,0 +1,919 @@
+/* entreprenuership/mesa school page css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+    /* -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;  */
+}
+
+.font-family {
+    font-family: 'Nunito';
+
+}
+
+.my-heading {
+    font-size: 40px;
+    color: #FF8400;
+    font-weight: bolder;
+}
+
+.my-heading1 {
+    font-size: 30px;
+    color: #FF8400;
+    font-weight: bolder;
+}
+
+/* .navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+
+}
+
+.navbar-toggler {
+    background: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+/* .nav-link.active,
+.nav-link:focus {
+    color: black;
+} */
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.dropdown-item:hover {
+    background-color: #FF8400 !important;
+}
+
+
+
+.dropdown-item {
+    font-size: 18px;
+}
+
+
+.container-fluid {
+    padding: 0% 2%;
+}
+
+.navbar {
+    padding: 0 0 0rem;
+}
+
+.navbar-brand {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5rem;
+    color: #FF8400;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    color: #000000;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-menu {
+    color: #FF8400;
+    display: block;
+}
+
+.corporate-button {
+    color: white !important;
+
+}
+
+
+
+.navbar-nav .nav-link:hover,
+.dropdown-submenu:hover>.dropdown-menu {
+    color: #FF8400;
+    display: block;
+}
+
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+
+.dropdown-submenu .dropdown-menu {
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+}
+
+.logo {
+    width: 50%
+}
+
+.my-first-btn{
+    width: 70% !important;
+}
+
+
+.our-hero-heading{
+    font-size: 55px !important;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-weight: 700 !important;
+    
+}
+
+.my-card {
+    transition: all 0.3s ease-in-out;
+}
+
+.my-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.my-button {
+    transition: all 2s ease-in-out;
+
+}
+
+.my-button:hover {
+    transform: scale(1.05);
+    background-color: orangered;
+    cursor: pointer;
+}
+
+
+
+/* text -animation */
+.boujee-text {
+    --bg-size: 400%;
+    --color-one: #090959;
+    --color-two: hsl(24, 95%, 55%);
+    /* font-size: clamp(3rem, 25vmin, 8rem); */
+    background: linear-gradient(90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-one)) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .boujee-text {
+        animation: move-bg 8s linear infinite;
+    }
+
+    @keyframes move-bg {
+        to {
+            background-position: var(--bg-size) 0;
+        }
+    }
+}
+
+
+
+/* icons */
+.my-icons {
+    border: black 1px solid;
+    padding: 8px;
+    color: #FF8400;
+    border-radius: 8px;
+}
+
+.my-list-item {
+    transition: 0.1s;
+}
+
+.my-list-item:hover {
+    color: #F79327;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+/* faq */
+.section_padding_130 {
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.faq_area {
+    position: relative;
+    /* z-index: 1; */
+ 
+}
+
+.faq-accordian {
+    position: relative;
+    /* z-index: 1; */
+}
+
+.faq-accordian .card {
+    position: relative;
+    /* z-index: 1; */
+    background-color: #f5f5ff;
+    margin-bottom: 1.5rem;
+}
+
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+
+.faq-accordian .card .card-header {
+    background-color: #f5f5ff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #3f43fd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.faq-accordian .card .card-header h6 {
+    font-size: 1.4rem;
+}
+
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* crousel */
+.my-crousel-card:hover {
+    background-color: #ffbf7bd0;
+}
+.my-company-logo-img{
+    width: 70px;
+    height: 70px;
+}
+
+#myCarousel {
+    margin-top: 50px;
+}
+.my-carousel {
+    height: 400px; /* Adjust the height value as needed */
+  }
+  .my-carousel1{
+    height: 600px;
+  }
+
+/* table */
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
+
+}
+
+thead th,
+tbody th {
+    color: #fff;
+}
+
+tbody td {
+    font-weight: 500;
+
+    color: rgba(255, 255, 255, .65);
+}
+
+table td:hover {
+    background-color: #caf5f9;
+    /* background-color: #ffbf7bd0; */
+    /* color: white; */
+    transform: scale(1.06);
+}
+
+.my-crousel-card1:hover {
+    background-color: #caf5f9;
+}
+/*  */
+.box-icons {
+    background-color: #FF8400;
+    border-radius: 50px;
+    padding: 25px;
+    margin-top: -8%;
+}
+
+.box-icons1 {
+    background-color: #FF8400;
+    border-radius: 50px;
+    width: 17%;
+    padding: 20px;
+    margin-top: -5%;
+}
+
+.my-block1 {
+    display: none !important;
+}
+
+.my-heading-div {
+    display: none;
+}
+
+
+
+.my-crousel-section-hide {
+    display: none !important;
+}
+
+.hidden-table {
+    display: none !important;
+}
+.my-hidden-section {
+    display: none !important;
+}
+
+/* hero section  */
+@media (10px <=width <=500px) {
+    .my-first-btn {
+        width: 90% !important;
+        margin-left: 3.5% !important;
+    }
+
+    .my-second-btn {
+        width: 90% !important;
+    }
+    .third-section{
+        margin-top: -14% !important;
+    }
+}
+
+@media (500px <=width <=700px) {
+    .my-first-btn {
+
+        margin-left: 3.5% !important;
+    }
+}
+
+@media (1000px <=width <=1200px) {
+    .my-section4 {
+        width: 85% !important;
+        display: block;
+        margin-left: 6% !important;
+
+    }
+
+    .my-first-btn {
+
+        margin-left: 6% !important;
+    }
+
+    .hero-section {
+        margin-top: 12% !important;
+    }
+}
+
+@media (769px <=width <=1000px) {
+    .my-section4 {
+        width: 85% !important;
+        display: block;
+        margin-left: 6% !important;
+
+    }
+
+    .my-first-btn {
+
+        margin-left: 6% !important;
+    }
+
+    .hero-section {
+        margin-top: 15% !important;
+    }
+}
+
+@media (700px <=width <=768px) {
+    .my-section4 {
+        width: 85% !important;
+        display: block;
+        margin-left: 7% !important;
+
+    }
+
+    .my-first-btn {
+        margin-left: 7% !important;
+    }
+
+    .hero-section {
+        margin-top: 13% !important;
+    }
+
+
+}
+
+@media (10px <=width <=700px) {
+    .my-section4 {
+        width: 97% !important;
+        display: block;
+        margin-left: 3.5% !important;
+        margin-right: 3.5% !important;
+    }
+
+    .hero-section {
+        margin-top: 16% !important;
+    }
+
+}
+
+
+/*  */
+@media (200px <=width <=991px) {
+    .pic2 {
+        display: none;
+    }
+}
+
+@media (200px <=width <=1400px) {
+
+    .my-section-hidden {
+        display: none !important;
+    }
+    .my-hidden-section {
+        display: block !important;
+    }
+}
+
+@media (200px <=width <=1200px) {
+
+ 
+    .pic1 {
+        display: none;
+    }
+
+    .submit-btn {
+        margin-top: 5%;
+    }
+
+    .kids-heading {
+        width: 80% !important;
+        margin-left: 30% !important;
+
+    }
+
+    .kids-button {
+        margin-left: 30% !important;
+        width: 65%;
+    }
+
+    .my-section1 {
+        width: 98% !important;
+        display: block;
+
+    }
+    .my-section3 {
+        width: 100% !important;
+        display: block;
+        margin-left: -6% !important;
+
+    }
+
+    .faq-heading {
+        margin-left: 10% !important;
+    }
+
+
+    .my-circle-images {
+        display: none;
+    }
+
+
+  
+
+    .key-date-table {
+        display: none !important;
+    }
+
+    .hidden-table {
+        display: block !important;
+    }
+
+
+}
+
+@media (200px <=width <=1400px) {
+    .my-faq-text1 {
+        font-size: 19px !important;
+    }
+
+}
+
+/* font-size */
+@media (200px <=width <=700px) {
+    .my-heading {
+        font-size: 30px;
+    }
+
+    .my-faq-text {
+        font-size: 15px !important;
+    }
+
+    .join-team-text {
+        font-size: 20px;
+    }
+    .our-hero-heading{
+        font-size: 33px !important;
+       
+        
+    }
+
+    .my-faq-text1 {
+        font-size: 19px !important;
+    }
+
+
+}
+
+
+
+@media (200px <=width <=590px) {
+    .my-section1 {
+        margin-top: 19% !important;
+    }
+}
+
+@media (200px <=width <=768px) {
+
+    .navbar-nav .nav-link:hover,
+    .dropdown-submenu>.dropdown-menu {
+        color: #FF8400;
+        display: block;
+    }
+
+    .corporate-button {
+        margin-left: 2%;
+
+    }
+
+    .cb {
+        padding-left: 50%;
+    }
+}
+@media (10px <=width <=1000px) {
+
+    .my-crousel-section-hide {
+        display: block !important;
+    }
+    
+    .my-crousel-section {
+        display: none !important;
+    }
+    .my-block1 {
+        display: block !important;
+    }
+
+    .my-block {
+        display: none !important;
+    }
+}
+@media (10px <=width <=400px){
+    .my-carousel2{
+        height: 350px;
+      }
+      .my-carousel3{
+        height: 375px;
+      }
+      .my-carousel4{
+        height: 480px;
+      }
+      .my-carousel5{
+        height: 250px;
+      }
+}
+@media (400px <=width <=600px){
+    .my-carousel2{
+        height: 300px;
+      }
+      .my-carousel3{
+        height: 320px;
+      }
+      .my-carousel4{
+        height: 400px;
+      }
+      .my-carousel5{
+        height: 250px;
+      }
+}
+@media (600px <=width <=1000px){
+    .my-carousel2{
+        height: 280px;
+      }
+      .my-carousel3{
+        height: 300px;
+      }
+      .my-carousel4{
+        height: 325px;
+      }
+      .my-carousel5{
+        height: 250px;
+      }
+}
+
+
+
+
+
+
+
+@media (200px <=width <=765px) {
+    .my-sticky-div {
+        display: none !important;
+    }
+
+    .my-hidden-div {
+        display: block;
+    }
+
+    .scrollingDIV {
+        margin-right: 18% !important;
+    }
+
+    .my-section-2 {
+        margin-top: 5% !important;
+    }
+
+    .my-course-button {
+        display: block;
+    }
+
+    .my-heading-div {
+        display: block;
+
+    }
+
+    .my-scrolling-part {
+        margin-top: 4% !important;
+        width: 90% !important;
+        margin-left: 6% !important;
+
+    }
+
+}
+
+@media (1100px <=width <=1200px) {
+    .my-scrolling-part {
+        margin-top: -38% !important;
+    }
+
+    .my-book-class-sticky-btn {
+        display: none;
+    }
+}
+
+@media (765px <=width <=1100px) {
+    .my-scrolling-part {
+        margin-top: -58% !important;
+    }
+
+
+}
+
+
+/* logo */
+
+/* logo img */
+@media (1600px <=width <=1700px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -10%;
+
+    }
+}
+
+@media (1500px <=width <=1599px) {
+    .logo-img {
+        width: 100%;
+        margin-left: 3%;
+
+    }
+}
+
+@media (1700px <=width <=1800px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -28%;
+
+    }
+}
+
+@media (1800px <=width <=1850px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -50%;
+    }
+}
+
+@media (1850px <=width <=1900px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -55%;
+    }
+}
+
+@media (1900px <=width <=1950px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -64%;
+    }
+}
+
+@media (1950px <=width <=2000px) {
+    .logo-img {
+        width: 100%;
+        margin-left: -70%;
+    }
+}
+
+@media (1100px <=width <=1200px) {
+    .logo-img {
+        width: 90%;
+        margin-left: -18%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+
+@media (1000px <=width <=1100px) {
+    .logo-img {
+        width: 90%;
+        margin-left: 1%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+
+@media (900px <=width <=1000px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -7%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (800px <=width <=900px) {
+    .logo-img {
+        width: 40%;
+        margin-left: 2%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (750px <=width <=800px) {
+    .logo-img {
+        width: 20%;
+        margin-left: 5%;
+
+    }
+
+    .my-logo-div {
+        width: 40% !important;
+    }
+}
+
+@media (700px <=width <=750px) {
+    .logo-img {
+        width: 20%;
+        margin-left: -5%;
+
+    }
+
+    .my-logo-div {
+        width: 60% !important;
+    }
+}
+
+@media (650px <=width <=700px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -10%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (600px <=width <=650px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -7%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (550px <=width <=600px) {
+    .logo-img {
+        width: 60%;
+        margin-left: -3%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (500px <=width <=550px) {
+    .logo-img {
+        width: 60%;
+        margin-left: 3%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (400px <=width <=500px) {
+    .logo-img {
+        width: 60%;
+        margin-left: 0%;
+
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+}
+
+@media (10px <=width <=800px) {
+    .logo-img {
+        width: 60%;
+    }
+
+    .my-logo-div {
+        width: 70% !important;
+    }
+
+}
