@@ -1,0 +1,604 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+.lasts{
+margin-top:10%; }
+.paragraph1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    margin-left: -1.25rem;
+}
+
+.paragraph2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.big_heading_main1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FF8400;
+    padding-top: 5rem;
+    margin-left: -1.25rem;
+}
+
+.last {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FF8400;
+    padding-top: 4rem;
+}
+
+.last2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: black;
+}
+
+
+.big_heading {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 75px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FF8400;
+}
+
+.container-fluid {
+    padding: 5% 5%;
+}
+
+/* sections */
+.colored-section {
+    margin-top: 5rem
+}
+
+/* .fourth-section {
+    align-items: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+  } */
+
+.sixth-section {
+    margin-top: 5%
+}
+
+.sixth-section{
+  background-color: #FF8400;
+  background-color: #FF8400;
+  width: 80%;
+  /* height: 350px; */
+  border-radius: 70px;
+  margin: auto;
+ padding: 3rem;
+ margin-top: 10%;
+ margin-bottom: 5%;
+}
+
+
+/* navbar */
+/* .navbar {
+    padding: 8%;
+    padding-top: 1%;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5rem;
+    color: #FF8400;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+    color: #000000;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-submenu:hover>.dropdown-menu {
+    color: #FF8400;
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.navbar-nav .nav-link.dropdown-toggle:focus,
+.navbar-nav .nav-link.dropdown-toggle:active,
+.navbar-nav .nav-link.dropdown-toggle:focus+.dropdown-menu,
+.navbar-nav .nav-link.dropdown-toggle:active+.dropdown-menu {
+    color: #FF8400;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #1D1D1D;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #F79327;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.dropdown-submenu .dropdown-menu {
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+
+nav li a.highlight1 {
+    background-color: #F79327;
+
+}
+
+nav li a.highlight1:hover {
+    background-color: white;
+    color: white;
+}
+
+nav li a.highlight2 {
+    background-color: #525FE1;
+
+}
+
+nav li a.highlight2:hover {
+    background-color: white;
+    color: white;
+
+} */
+.logo-img{
+  width: 32% !important;
+}
+/* navbar buttons */
+.corporate-button {
+    color: white !important;
+
+}
+
+.corporate-button:hover {
+    color: white !important;
+}
+
+.my-button {
+    transition: all 0.1s ease-in-out;
+
+}
+
+.my-button:hover {
+    transform: scale(1.05);
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* section1 */
+.pic1 {
+    /* height: 400px; */
+    width: 100%;
+}
+
+#title .container-fluid {
+    padding: 2% 10% 10%;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.btn-dark {
+    background-color: #F79327;
+    border: none;
+    border-radius: 50px;
+    margin-left: -1.25rem;
+}
+
+.btn-last {
+    background-color: #1D1D1D;
+    border: none;
+    border-radius: 50px;
+}
+
+/* section2 */
+
+#title2 .container-fluid {
+    padding: 2% 10%;
+    margin-bottom: 5%
+}
+
+.pic2 {
+    width: 100%;
+    /* margin-top: 5rem; */
+}
+
+/* section3 */
+.pic3 {
+    width: 80%;
+}
+
+.pic3_trust {
+    width: 70%;
+}
+
+.third {
+  margin-top: 5%;
+  display: flex;
+align-items: center;
+}
+.three{
+  margin-left: 3%;
+}
+#title3 .container-fluid {
+  padding: 2% 10%;
+}
+
+
+/* section4 */
+
+/* @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+
+  .slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+  }
+
+  .slider .slide-track {
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+
+  .slider .slide-track {
+    height: 100px;
+    width: 250px;
+  } */
+
+/* section5 */
+
+/*Carousel*/
+/* .card-carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+  }
+
+  .card-carousel-item {
+    width: 500px;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 1em 2em;
+  }
+
+  .card-carousel-item p {
+    color: #626262;
+    font-weight: lighter;
+  } */
+
+/**
+    Card Carousel Designs
+    */
+/* .card-carousel-item {
+    transition: all .3s ease-in-out;
+    position: absolute;
+  } */
+
+/* Previous Cards */
+/* .card-carousel-item,
+  .card-carousel-item~.card-carousel-item.left {
+    transform: scale(.75) translateX(calc(-75%));
+    filter: blur(7px);
+    z-index: 1;
+  }
+
+  .card-carousel-item.left {
+    transform: scale(.8) translateX(calc(-45%)) !important;
+    filter: blur(5px) !important;
+    z-index: 2 !important;
+  } */
+
+/* Active Card */
+/* .card-carousel-item.active {
+    z-index: 3;
+    filter: unset;
+    transform: unset;
+  } */
+
+/* Next Cards */
+/* .card-carousel-item.active+.card-carousel-item {
+    transform: scale(.8) translateX(calc(45%));
+    filter: blur(5px);
+    z-index: 2;
+  }
+
+  .card-carousel-item.active+.card-carousel-item~.card-carousel-item {
+    transform: scale(.75) translateX(calc(75%));
+    filter: blur(7px);
+    z-index: 1;
+  } */
+
+/* Card Navigation */
+/* .card-nav {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    width: 500px;
+    padding: 0 2em;
+    cursor: pointer;
+  }
+
+  .card-nav-prev {
+    transform: translateX(calc(-100%));
+    justify-content: end;
+  }
+
+  .card-nav-next {
+    transform: translateX(calc(100%));
+    justify-content: start;
+  }
+
+  .card-nav:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #5e5e5e;
+    transition: all .3s;
+  }
+
+  .card-nav:hover:before {
+    transform: scale(1.2);
+  }
+
+  .card-nav.card-nav-next:before {
+    border-top: 5px solid #5e5e5e;
+    border-right: 5px solid #5e5e5e;
+    rotate: 45deg;
+  }
+
+  .card-nav.card-nav-prev:before {
+    border-top: 5px solid #5e5e5e;
+    border-left: 5px solid #5e5e5e;
+    rotate: -45deg;
+  } */
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .third {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+.logo-img {
+    width: 55% !important;
+    /* margin-right: 17rem; */
+}
+  .navbar-nav {
+      background-color: white;
+      text-align: center;
+    }
+.offcanvas-body{
+  padding: 0;
+}
+.offcanvas-body .nav-item{
+  padding:0;
+}
+.offcanvas-body .dropdown{
+  padding:0;
+}
+
+    .navbar-nav .nav-link {
+        color: #000000;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .dropdown-submenu>.dropdown-menu {
+        color: #FF8400;
+        display: block !important;
+    }
+
+    .nav-item {
+        padding: 5px 10px;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        font-family: 'Outfit', sans-serif;
+        padding: 5px;
+    }
+
+    .navbar-toggler-icon {
+        /* background-color: #FF8400 !important; */
+        font-size: 1.5rem;
+        /* Increase the font size to adjust the button size */
+        color: black;
+        width: 1.5em;
+        /* Increase the width to adjust the button size */
+        height: 1.5em;
+        /* Increase the height to adjust the button size */
+        border-radius: 10px;
+        /* Adjust the border radius as needed */
+    }
+}
+
+/* nav */
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+
+}
+
+.navbar-toggler {
+    background: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.dropdown-item:hover {
+    background-color: #FF8400 !important;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.navbar {
+    padding: 0 0 0rem;
+    z-index: 100;
+    margin-top: -12% !important;
+}
+
+.container-fluid {
+    padding: 0% 2%;
+}
+
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color: #FF8400;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+}
+
+/* .navbar-nav .nav-link:hover,
+  .dropdown-menu {
+    color: #FF8400;
+    display: block;
+  } */
+
+.corporate-button {
+    color: white !important;
+
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-submenu:hover>.dropdown-menu {
+    color: #FF8400;
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+/* .dropdown-menu {
+    background-color: #1D1D1D;
+  }
+  */
+.dropdown-menu .dropdown-item {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}
+
+.dropdown-submenu .dropdown-menu {
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+}

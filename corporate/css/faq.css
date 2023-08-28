@@ -1,0 +1,273 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color:white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 75px;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+color:#202124
+}
+
+p {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: black;
+}
+
+
+.container-fluid {
+  padding: 5% 7%;
+}
+
+
+.navbar {
+  padding: 8%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+.navbar-brand {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  color: #FF8400;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Nunito';
+  color: #000000;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-submenu:hover > .dropdown-menu {
+  color: #FF8400;
+  display: block;
+    font-size: 1.2rem;
+  font-family: 'Nunito';
+}
+
+.navbar-nav .nav-link.dropdown-toggle:focus,
+.navbar-nav .nav-link.dropdown-toggle:active,
+.navbar-nav .nav-link.dropdown-toggle:focus + .dropdown-menu,
+.navbar-nav .nav-link.dropdown-toggle:active + .dropdown-menu {
+  color: #FF8400;
+  display: block;
+    font-size: 1.2rem;
+  font-family: 'Nunito';
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #1D1D1D;
+    font-size: 1.2rem;
+  font-family: 'Nunito';
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #F79327;
+  color: white;
+    font-size: 1.2rem;
+  font-family: 'Nunito';
+}
+
+.dropdown-submenu .dropdown-menu {
+  left: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+}
+
+nav li a.highlight1 {
+  background-color: #F79327; /* Set the background color for specific links */
+}
+
+nav li a.highlight1:hover {
+  background-color: white;
+  color: white;/* Set the background color for specific links on hover */
+}
+
+nav li a.highlight2 {
+  background-color: #525FE1; /* Set the background color for specific links */
+}
+
+nav li a.highlight2:hover {
+  background-color: white;
+  color: white;/* Set the background color for specific links on hover */
+}
+
+.logo {
+  width: 50%
+}
+
+/* navbar buttons */
+.corporate-button {
+  color: white !important;
+
+}
+
+.corporate-button:hover {
+  color: white !important;
+}
+
+.my-button {
+  transition: all 0.1s ease-in-out;
+
+}
+
+.my-button:hover {
+  transform: scale(1.05);
+  background-color: white;
+  cursor: pointer;
+}
+.btn-dark {
+  background-color: #F79327;
+  border: none;
+  border-radius: 50px;
+}
+
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5%
+}
+.accordion-item {
+  background-color: white;
+  color: black;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, orange, transparent) 1;
+}
+
+/* footer */
+footer {
+  background-color: #F79327;
+  text-align: center;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  padding: 2% 10%;
+}
+
+.para{
+  padding-bottom: 30px;
+}
+.pa{
+  color: black;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1,
+.column2 {
+  flex-basis: 50%;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.social-media {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.copy1{
+  display: inline-block;
+}
+
+.fa {
+  font-size: 20px;
+  color: black;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
